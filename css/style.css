@@ -1,0 +1,113 @@
+/* Global */
+
+@font-face {
+	font-family: Fairview;
+	src: url('../fonts/Fairview_Regular.otf');
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	color: #8a8683;
+	background-color:#ffffff;
+}
+img {
+	max-width: 100%;
+}
+a:link {
+	color: #f68f67;
+	text-decoration: none;
+}
+a:hover {
+	color: #bde2df;
+	text-decoration: none;
+}
+a:visited {
+	color: #f68f67;
+	text-decoration: none;
+}
+
+/* General Slides */ 
+
+.slide{
+	background-attachment: fixed;
+	width:100%;
+	position: relative;
+	padding:150px 0;
+}
+
+
+/* Lower Content */ 
+
+#slide1{
+	background-color:#ffffff;
+}
+#slide1 h1 {
+	font-size: 5em;
+	line-height: 1em;
+	color:#8a8683;
+	font-weight: 700;
+}
+#slide1 h2 {
+	font-size: 2em;
+	color: #8a8683;
+	line-height: 1em;
+	padding-bottom:20px;
+	font-weight: 400;
+}
+
+
+/* Header */ 
+
+#ContentHeader
+{
+	text-align: center;
+}
+
+#Header{
+	background-image:url('../images/header.jpg');
+	background-repeat: no-repeat;
+	width: 100%;
+	height: auto;
+	max-height: 420px;
+	background-size: 100%;
+	overflow: hidden;
+}
+#Header h1 {
+	font-family: 'Fairview';
+	font-size: 4.5em;
+	line-height: 1em;
+	color:#ffffff;
+	font-weight: 700;
+	width: 100%;
+	position: absolute;
+	top: -45px;
+}
+#Header h2 {
+	font-family: 'Fairview';
+	font-size: 3em;
+	color: #ffffff;
+	line-height: 1em;
+	padding-bottom:20px;
+	font-weight: 400;
+}
+
+/* Tablet */
+@media screen and (min-width: 1024px) {
+
+#decorative {
+	display:none;
+}
+
+#content {
+	text-align:center;
+	width:100%;
+}
+
+}
+
+/* Mobile */
+@media screen and (min-width: 480px) {
+
+}
