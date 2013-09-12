@@ -6,11 +6,14 @@
 }
 
 body {
+	background-color: #f0f0f0;
+}
+
+body {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	font-size: 1em;
 	color: #8a8683;
-	background-color:#ffffff;
 }
 img {
 	max-width: 100%;
@@ -41,7 +44,7 @@ a:visited {
 /* Lower Content */ 
 
 #slide1{
-	background-color:#ffffff;
+	background:#F0F0F0;
 }
 #slide1 h1 {
 	font-size: 5em;
@@ -75,22 +78,36 @@ a:visited {
 	overflow: hidden;
 }
 #Header h1 {
-	font-family: 'Fairview';
-	font-size: 4.5em;
-	line-height: 1em;
+	font-family: 'Open Sans', serif;
+	font-size: 1.5em;
 	color:#ffffff;
-	font-weight: 700;
-	width: 100%;
-	position: absolute;
-	top: -45px;
-}
-#Header h2 {
-	font-family: 'Fairview';
-	font-size: 3em;
-	color: #ffffff;
-	line-height: 1em;
-	padding-bottom:20px;
 	font-weight: 400;
+	margin-top: -130px;
+	line-height: 1.2em;
+	letter-spacing: 0.05em;
+}
+
+#Header h1 span {
+	padding: 4px;
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+	box-shadow: 10px 0 0 rgba(0, 0, 0, 0.5), -10px 0 0 rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 10px 0 0 rgba(0, 0, 0, 0.5), -10px 0 0 rgba(0, 0, 0, 0.5);
+}
+
+#Header h2 {
+	font-family: 'Open Sans', serif;
+	font-size: 1.3em;
+	color: #ffffff;
+	font-weight: 400;
+	margin-top: -12px;
+	letter-spacing: 0.03em;
+}
+
+#Header h2 span {
+	padding: 4px;
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+	box-shadow: 10px 0 0 rgba(0, 0, 0, 0.5), -10px 0 0 rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 10px 0 0 rgba(0, 0, 0, 0.5), -10px 0 0 rgba(0, 0, 0, 0.5);
 }
 
 /* Tablet */
