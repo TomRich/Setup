@@ -5,18 +5,51 @@
 <!--[if gt IE 8]><!--><html class="no-js"><!--<![endif]-->
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-	<meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no">
-	<title>Tom Rich | Production Setup</title>
+	<meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no" media="(device-height: 568px)">
+	<meta name="HandheldFriendly" content="True">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+
 	<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
-	<link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" media="all" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/trunk.css" />
+
+	<script type="text/javascript">
+	if (typeof jQuery == 'undefined')
+		document.write(unescape("%3Cscript src='js/jquery-1.9.js'" + 
+															"type='text/javascript'%3E%3C/script%3E"))
+	</script>
+	<script type="text/javascript" language="javascript" src="js/trunk.js"></script>
+
+	<title>Tom Rich | Production Setup</title>
+
 	<!-- <link rel="stylesheet" href="css/style.min.css" type="text/css" media="screen"> -->
 	<!--[if IE]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 
 <body>
+
+<!-- TRUNK NAVIGATION -->
+	<header class="slideRight">
+		<ul id="navToggle" class="burger slideRight">    <!--	Add "slideRight" class to items that move right when viewing Nav Drawer  -->
+			<li></li><li></li><li></li>
+		</ul>
+		<h1><a href="index.html">My Setup.</a></h1>
+	</header>
+	<nav class="slideLeft">
+		<ul>
+			<li><a href="index.html" class="active">Setup</a></li>
+			<li><a href="#">Contact</a></li>
+			<li><a href="#">RichWhizz</a></li>
+		</ul>
+	</nav>
+<!-- END TRUNK NAV -->
+
 	<div class="slide" id="Header" data-slide="2" data-stellar-background-ratio="0.5">
 	<div class="container clearfix">
 		<div id="ContentHeader" class="grid_12">
