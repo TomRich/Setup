@@ -1,12 +1,7 @@
 /* Global */
 
-@font-face {
-	font-family: Fairview;
-	src: url('../fonts/Fairview_Regular.otf');
-}
-
 body {
-	background-color: #f0f0f0;
+	background: #f0f0f0;
 }
 
 body {
@@ -40,26 +35,12 @@ a:visited {
 	padding:150px 0;
 }
 
-
-/* Lower Content */ 
-
-#slide1{
-	background:#F0F0F0;
+div.contentcontainer
+{
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
 }
-#slide1 h1 {
-	font-size: 5em;
-	line-height: 1em;
-	color:#8a8683;
-	font-weight: 700;
-}
-#slide1 h2 {
-	font-size: 2em;
-	color: #8a8683;
-	line-height: 1em;
-	padding-bottom:20px;
-	font-weight: 400;
-}
-
 
 /* Header */ 
 
@@ -78,37 +59,76 @@ a:visited {
 	overflow: hidden;
 }
 #Header h1 {
-	font-family: 'Open Sans', serif;
-	font-size: 1.5em;
-	color:#ffffff;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.4em;
+	color:#0f0f0f;
 	font-weight: 400;
-	margin-top: -130px;
+	margin-top: -52px;
 	line-height: 1.2em;
 	letter-spacing: 0.05em;
+	position: relative;
+	top: -60px;
 }
 
 #Header h1 span {
-	padding: 4px;
-	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
-	box-shadow: 10px 0 0 rgba(0, 0, 0, 0.5), -10px 0 0 rgba(0, 0, 0, 0.5);
-	-webkit-box-shadow: 10px 0 0 rgba(0, 0, 0, 0.5), -10px 0 0 rgba(0, 0, 0, 0.5);
+	padding: 2px;
+	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.35);
+	box-shadow: 10px 0 0 rgba(255, 255, 255, 0.35), -10px 0 0 rgba(255, 255, 255, 0.35);
+	-webkit-box-shadow: 10px 0 0 rgba(255, 255, 255, 0.35), -10px 0 0 rgba(255, 255, 255, 0.35);
 }
 
 #Header h2 {
-	font-family: 'Open Sans', serif;
-	font-size: 1.3em;
-	color: #ffffff;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.2em;
+	color: #0f0f0f;
 	font-weight: 400;
-	margin-top: -12px;
 	letter-spacing: 0.03em;
+	position: relative;
+	top: -65px;
 }
 
 #Header h2 span {
-	padding: 4px;
-	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
-	box-shadow: 10px 0 0 rgba(0, 0, 0, 0.5), -10px 0 0 rgba(0, 0, 0, 0.5);
-	-webkit-box-shadow: 10px 0 0 rgba(0, 0, 0, 0.5), -10px 0 0 rgba(0, 0, 0, 0.5);
+	padding: 1px;
+	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.35);
+	box-shadow: 10px 0 0 rgba(255, 255, 255, 0.35), -10px 0 0 rgba(255, 255, 255, 0.35);
+	-webkit-box-shadow: 10px 0 0 rgba(255, 255, 255, 0.35), -10px 0 0 rgba(255, 255, 255, 0.35);
 }
+
+/* Lower Content */ 
+
+.CardWrapper{
+	display: block;
+	float: none;
+	width: 100%;
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+.Card{
+	background-color: #e3e1e1;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	padding: 14px;
+}
+
+#slide1{
+	background: #f0f0f0;
+}
+#slide1 h1 {
+	font-size: 3em;
+	line-height: 1em;
+	color:#8a8683;
+	font-weight: 700;
+}
+#slide1 h2 {
+	font-size: 2em;
+	color: #8a8683;
+	line-height: 1em;
+	padding-bottom:20px;
+	font-weight: 400;
+}
+
 
 /* Tablet */
 @media screen and (min-width: 1024px) {
